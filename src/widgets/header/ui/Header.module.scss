@@ -1,0 +1,26 @@
+.wrapper {
+  height: 105px;
+  width: 100vw;
+  margin: 20px 30px;
+  background-color: var(--color-background);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 700px 1fr;
+  align-items: center;
+  padding:26px 0;
+  width: 100%;
+  max-width: 1860px;
+  margin: 0 auto;
+}
+
+.title {
+  justify-self: start;
+  margin: 0;
+}
+
+.search {
+  grid-column: 2;
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+.searchInput{
+  background-color: var(--color-background-l);
+  width:1023px;
+  height:48px;
+}
+
+
+.input::placeholder {
+  color: var(--color-text-light-m);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-regular);
+}
+
+.сlearIcon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+}

@@ -1,0 +1,28 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.04);
+  z-index: 2;
+}
+
+.bar {
+  height: 100%;
+  width: 35%;
+  border-radius: 999px;
+  background: #5b5ce2;
+  animation: loading-bar 1s infinite ease-in-out;
+}
+
+@keyframes loading-bar {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(320%);
+  }
+}

@@ -1,0 +1,31 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}
+
+.secondary {
+  background-color: var(--color-l-primary);
+  color: var(--color-background);
+}
+
+.light {
+  background-color: var(--color-background);
+  color: var(--color-light-m);
+  border: 1px solid var(--color-primary);
+}

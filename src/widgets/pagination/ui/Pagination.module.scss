@@ -1,0 +1,16 @@
+.colorButton{
+  border: var(--color-light), solid 1px;
+  border-radius:  var(--border-radius);
+}
+
+.arrowButton{
+  display: flex;
+  gap:16px;
+
+}
+
+.arrowIcon{
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+}
